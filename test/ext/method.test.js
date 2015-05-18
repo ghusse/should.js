@@ -19,5 +19,5 @@ function shouldMethodSuite(){
 
 function emptyTest(){
   should('').be.empty;
-  should('foo').no.be.empty;
+  should('foo').not.be.empty;
 }
